@@ -1,0 +1,24 @@
+.floating-buttonContainer {
+  display: grid;
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+  position: fixed;
+  bottom: 100px;
+  right: 5px;
+}
+
+.floating-buttonAction {
+  width: 360px;
+  font-size: 18px;
+  background-color: #2d9cdb;
+  font-weight: bold;
+  color: white;
+  height: 40px;
+  border: 1px solid #2f80ed;
+  box-sizing: border-box;
+  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  position: fixed;
+  right: 10px;
+}

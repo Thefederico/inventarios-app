@@ -1,0 +1,92 @@
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 20px;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  width: 250px;
+  height: 300px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.modalContainer .modalTitle {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modalCloseButton {
+  background-color: gray;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.titleCloseBtn .modalOkButton .modalCancelButton .modalCloseButton {
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+}
+
+.modalContainer .modalBody {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  text-align: center;
+}
+
+.modalContainer .modalFooter {
+  flex: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.modalContainer .modalFooter .modalOkButton .modalCloseButton {
+  width: 180px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modalOkButton {
+  background-color: #007bff;
+  color: white;
+  font-size: 15px;
+  border: solid 2px lightblue;
+  border-radius: 5px;
+  width: 100px;
+  height: 45px;
+}
+
+#cancelBtn {
+  background-color: white;
+  color: #007bff;
+  font-size: 15px;
+  border: solid 2px lightblue;
+  border-radius: 5px;
+  width: 100px;
+  height: 45px;
+}

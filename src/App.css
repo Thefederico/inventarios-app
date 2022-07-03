@@ -1,0 +1,14 @@
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 0.5fr 4fr 0.5fr;
+  justify-content: center;
+}
+
+.containerToSticker {
+  display: block;
+}
+
+.containerToDoubleSticker {
+  margin: 0;
+}

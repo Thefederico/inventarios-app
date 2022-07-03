@@ -1,0 +1,16 @@
+.filterContainer {
+  display: flex;
+  text-align: center;
+}
+
+.printInfo{
+  margin: 0;
+  height: 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.selectAllBarcode{
+  background: #E5E5E5;
+  margin: 0;
+}

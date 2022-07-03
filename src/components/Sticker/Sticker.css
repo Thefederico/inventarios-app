@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Barcode+39&display=swap");
+
+/* .sticker-wp {
+  display: grid;
+  grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
+  width: 50mm;
+  height: 21mm;
+  border: solid 0.5px black;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 10px;
+}
+
+.description-wp {
+  display: grid;
+  height: 100%;
+}
+
+.matDescription {
+  font-size: 11px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.barcode-wp {
+  height: 30px;
+}
+
+.barcode {
+  display: grid;
+  font-family: "Libre Barcode 39", cursive !important;
+  font-size: 24px !important;
+  text-align: center;
+  margin: 3px;
+  padding-top: 3px;
+  font-weight: 400;
+}
+
+.barcodeText-wp {
+  display: grid;
+  justify-content: center;
+}
+
+.info-wp {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+
+.mat-oc-wp {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 3fr;
+}
+
+.material-wp {
+  display: grid;
+}
+.order-wp {
+  display: grid;
+}
+
+.refs-wp {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+} */

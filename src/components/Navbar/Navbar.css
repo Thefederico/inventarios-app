@@ -1,0 +1,20 @@
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 80px;
+    background-color: #4BE2E5 ;
+    color: white;
+    text-align: center;
+    margin-top:55px ;
+    align-items: center;
+  }
+
+.nav-title{
+  margin-top: 17px;
+  margin-left: 25px;
+}
+
+.nav-menu{
+margin-top: 10px;
+margin-left: 30px;
+}
